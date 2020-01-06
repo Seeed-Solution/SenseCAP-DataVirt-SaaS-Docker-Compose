@@ -13,4 +13,6 @@ cp SenseCAP-DataVirt-SaaS-Docker-Compose/.env  SenseCAP-DataVirt-SaaS-Example/
 cd  SenseCAP-DataVirt-SaaS-Example/
 
 docker-compose build
-docker-compose up
+docker-compose up -d
+
+echo -e "Server is running, please visit \033[43;37mhttp://localhost:6060"

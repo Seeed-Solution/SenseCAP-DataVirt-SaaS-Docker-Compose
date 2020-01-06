@@ -5,9 +5,24 @@ Read this in other languages: English, 简体中文.
 
 
 **Table of Contents**
+
 - Requirements
-  + 1
+...
+
 - Install Docker Environment
+...
+
 - One-Step Running
+...
+```
+git clone https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose.git
+cd SenseCAP-DataVirt-SaaS-Docker-Compose
+chmod +x compose.sh
+./compose.sh
+```
+
 - Configuration
+...
+
 - Next Steps
+...

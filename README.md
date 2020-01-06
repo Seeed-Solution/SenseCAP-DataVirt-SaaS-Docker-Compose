@@ -1,7 +1,7 @@
 # SenseCAP-DataVirt-SaaS-Docker-Compose
 Docker Compose to setup your own SenseCAP Data Virtualization SaaS, with OpenAPI/OpenStream on Mac, Linux, and MacOS
 
-Read this in other languages: English, 简体中文.
+Read this in other languages: [English](https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose/blob/master/README.md), [简体中文](https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose/blob/master/README-CN.md).
 
 
 **Table of Contents**

@@ -4,11 +4,11 @@ project_path=$(cd `dirname $0`; pwd)/
 
 cd ${project_path}
 
-if [ -d "/SenseCAP-DataVirt-SaaS-Example" ]; then
+if [ -d "./SenseCAP-DataVirt-SaaS-Example" ]; then
     cd  SenseCAP-DataVirt-SaaS-Example
-    docker-compose stop
+    docker-compose stop -t 1
     docker-compose kill
-    docker-compose rm
+    docker-compose rm -f
 fi
 
 

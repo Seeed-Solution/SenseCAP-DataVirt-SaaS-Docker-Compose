@@ -8,7 +8,7 @@ rm -rf SenseCAP-DataVirt-SaaS-Example/
 git clone https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Example.git
 #cp .env file to saas
 
-cp SenseCAP-DataVirt-SaaS-Docker-Compose/.env  SenseCAP-DataVirt-SaaS-Example/
+cp .env  SenseCAP-DataVirt-SaaS-Example/
 
 cd  SenseCAP-DataVirt-SaaS-Example/
 

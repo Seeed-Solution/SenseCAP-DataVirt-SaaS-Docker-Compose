@@ -7,14 +7,15 @@ Read this in other languages: English, 简体中文.
 **Table of Contents**
 
 - Requirements
-...
+  - CentOS, Ubuntu, MacOS, or Windows
+  - Docker
+  - Docker-compose
 
 - Install Docker Environment
-...
+Refer to the folder `install-docker`
 
 - One-Step Running
-...
-```
+ ```
 git clone https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose.git
 cd SenseCAP-DataVirt-SaaS-Docker-Compose
 chmod +x compose.sh
@@ -22,7 +23,10 @@ chmod +x compose.sh
 ```
 
 - Configuration
-...
+You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your own account connection information on the SenseCAP platform, you can easily build your own SaaS Page.
 
-- Next Steps
-...
+- Uninstall
+```
+chmod +x remove-all.sh
+./remove-all.sh
+```

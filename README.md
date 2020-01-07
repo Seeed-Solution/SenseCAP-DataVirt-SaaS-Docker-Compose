@@ -19,11 +19,15 @@ Refer to the folder `install-docker`
 git clone https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose.git
 cd SenseCAP-DataVirt-SaaS-Docker-Compose
 chmod +x compose.sh
-./compose.sh
 ```
 
 - Configuration
 You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your own account connection information on the SenseCAP platform, you can easily build your own SaaS Page.
+(env is a hidden file）
+then
+```
+./compose.sh
+```
 
 - Uninstall
 ```

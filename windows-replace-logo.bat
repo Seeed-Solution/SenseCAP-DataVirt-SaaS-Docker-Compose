@@ -1,0 +1,1 @@
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v %cd%:/saasc jancee/seeed-docker-ubuntu:1.0 sh -c "cd /saasc && chmod +x  ./replace-logo.sh &&  dos2unix ./replace-logo.sh&& ./replace-logo.sh; cd /saasc && bash"

@@ -17,11 +17,11 @@ git clone https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Example.git
 #cp .env file to saas
 cp SenseCAP-DataVirt-SaaS-Example/sensecap_demo/static/lang   lang/
 cp .env  SenseCAP-DataVirt-SaaS-Example/
-cp images/docker-compose.yaml SenseCAP-DataVirt-SaaS-Example/
+cp images/docker-compose-offline.yaml SenseCAP-DataVirt-SaaS-Example/
 
 cd  SenseCAP-DataVirt-SaaS-Example/
 echo 'start build '
 docker-compose build
-docker-compose up -d
+docker-compose up -d -f docker-compose-offline.yaml
 
 echo -e "Server is running, please visit \033[43;37mhttp://localhost:6060"

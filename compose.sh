@@ -1,13 +1,14 @@
-#!/usr/bin/env bash
+#!/bin/bash
 project_path=$(cd `dirname $0`; pwd)/
 
 cd ${project_path}
 
 rm -rf SenseCAP-DataVirt-SaaS-Example/
 
+# clone saas ourcecode
 git clone https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Example.git
-#cp .env file to saas
 
+# cp .env file to saas
 cp .env  SenseCAP-DataVirt-SaaS-Example/
 
 cd  SenseCAP-DataVirt-SaaS-Example/

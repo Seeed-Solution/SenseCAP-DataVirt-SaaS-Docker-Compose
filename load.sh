@@ -1,11 +1,11 @@
 #!/bin/bash
-
+echo '************ start load images *************'
 docker load -i images/webdemo.tar
 docker load -i images/webapi.tar
 docker load -i images/mysql.tar
 
-echo 'load images success'
-echo 'start git clone code'
+echo '************load images success *************'
+
 
 project_path=$(cd `dirname $0`; pwd)/
 
@@ -19,7 +19,7 @@ cd ${project_path}
 #cp .env  SenseCAP-DataVirt-SaaS-Example/
 cp images/docker-compose-offline.yaml ./docker-compose.yaml
 
-echo 'start build '
+echo '************start build ************'
 docker-compose up --no-start
 docker cp sensecap_monitor.sql mysql:/docker-entrypoint-initdb.d/sensecap_monitor.sql
 docker start mysql webapi webdemo

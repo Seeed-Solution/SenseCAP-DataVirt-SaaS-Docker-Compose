@@ -22,7 +22,7 @@ cd SenseCAP-DataVirt-SaaS-Docker-Compose
 ```
 
 ### 3. Configuration
-You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your own account connection information on the [SenseCAP platform](https://sensecap.seeed.cc/), you can easily build your own SaaS Page.
+You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your own account connection information on the [SenseCAP platform](https://sensecap.seeed.cc/portal/#/security), you can easily build your own SaaS Page.
 (env is a hidden file）
 
 ### 4. Install

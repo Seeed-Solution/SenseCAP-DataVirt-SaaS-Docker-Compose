@@ -30,16 +30,16 @@ You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your ow
 + Mac/Linux
 
 ```
- ./load.sh
+ ./comepose.sh
 ```
 
 + windows
 
 ```
-exec  windows-helper-load.bat
+exec  windows-helper-compose.bat
 ```
 ##### 2. Offline deployment
->Copy the four image files to    /images 
+>Copy the four image files to   ` /images `
 
 + Mac/Linux
 

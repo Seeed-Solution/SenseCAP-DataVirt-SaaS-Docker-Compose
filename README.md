@@ -13,7 +13,7 @@ Read this in other languages: [English](https://github.com/Seeed-Solution/SenseC
 ### 1. Install Docker Environment
 Refer to the folder `install-docker`
 
-### 2. One-Step Running
+### 2. Pull code
  ```
 git clone https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose.git
 
@@ -26,7 +26,7 @@ You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your ow
 (env is a hidden file）
 
 ### 4. Install
-+ One-click deployment
+#### 1. One-click deployment
 + Mac/Linux
 
 ```
@@ -38,6 +38,21 @@ You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your ow
 ```
 exec  windows-helper-load.bat
 ```
+##### 2. Offline deployment
+>Copy the four image files to    /images 
+
++ Mac/Linux
+
+```
+./load.sh
+```
+
++ windows
+
+```
+exec   windows-helper-load.bat
+```
+
 
 ### 5. Stop service
 
@@ -53,8 +68,19 @@ exec  windows-helper-load.bat
 exec   windows-remove-all.bat
 ```
 
-### 6. Uninstall
+### 6. Other
+
+##### replace logo
 ```
-chmod +x remove-all.sh
-./remove-all.sh
+1.replace logo_replace_me.png
+2.Mac/Linux  exec ./replace-logo.sh
+3.windows  ecec windows-replace-logo.bat
 ```
+##### replace title
+（Can only be replaced once，If you need to modify it again, modify replace-title.sh by yourself）
+```
+1.Mac/Linux   exec ./replace-title.sh
+2.windows  exec windows-replace-title.bat 
+Enter the title,  enter
+```
+

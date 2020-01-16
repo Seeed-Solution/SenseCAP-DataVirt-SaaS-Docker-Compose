@@ -36,7 +36,7 @@ You can update the `.env` file.By changing `orgId`, `apiId`, `apiKey` to your ow
 + windows
 
 ```
-exec  windows-helper-compose.bat
+  windows-helper-compose.bat
 ```
 ##### 2. Offline deployment
 >Copy the four image files to   ` /images `
@@ -65,7 +65,7 @@ exec   windows-helper-load.bat
 + windows
 
 ```
-exec   windows-remove-all.bat
+ windows-remove-all.bat
 ```
 
 ### 6. Other
@@ -73,14 +73,14 @@ exec   windows-remove-all.bat
 ##### replace logo
 ```
 1.replace logo_replace_me.png
-2.Mac/Linux  exec ./replace-logo.sh
-3.windows  ecec windows-replace-logo.bat
+2.Mac/Linux   ./replace-logo.sh
+3.windows   windows-replace-logo.bat
 ```
 ##### replace title
 （Can only be replaced once，If you need to modify it again, modify replace-title.sh by yourself）
 ```
-1.Mac/Linux   exec ./replace-title.sh
-2.windows  exec windows-replace-title.bat 
+1.Mac/Linux    ./replace-title.sh
+2.windows   windows-replace-title.bat 
 Enter the title,  enter
 ```
 

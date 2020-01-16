@@ -13,7 +13,7 @@
 
 #### 3. 修改配置
 
->登录账号 https://sensecap.seeed.cc/portal/#/security 获取Access API keys 替换.env配置
+>登录账号 [SenseCAP Platform](https://sensecap.seeed.cc/portal/#/security) 获取Access API keys 替换.env配置
 
 ```
  vi .env 

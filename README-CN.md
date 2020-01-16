@@ -1,7 +1,6 @@
 ### 步骤
 #### 1. 安装docker-compose
-参考  https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose/tree/master/install-docker
-
+参考  [install-docker](https://github.com/Seeed-Solution/SenseCAP-DataVirt-SaaS-Docker-Compose/tree/master/install-docker)
 #### 2. github 下载 SenseCAP-DataVirt-SaaS-Docker-Compose
 
 ```

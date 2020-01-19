@@ -9,3 +9,5 @@ export sensecap_saas_logo_filename=$(docker exec -it webdemo sh -c "ls -l --colo
 
 # replace with new image
 docker cp logo_replace_me.png webdemo:/usr/share/nginx/html/img/${sensecap_saas_logo_filename%?}
+
+echo 'replace logo success......'
